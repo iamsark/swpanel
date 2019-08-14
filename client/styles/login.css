@@ -1,0 +1,122 @@
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 18px;
+	font-size: 13px;
+	color: #444;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #57666f;
+}
+
+.clearfix {
+	display: block;
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+	margin: 10px 0px 15px;
+}
+
+.login-error {
+	background: #fff1f1;
+	color: #950000;
+	border-bottom: 1px solid #ffe4e4;
+	border-radius: 3px 3px 0 0;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	padding-bottom: 0px;
+	height: 52px;
+}
+
+.sst {
+	margin-top: 20px;
+}
+
+.ssb {
+	margin-bottom: 20px;
+}
+
+.ppb {
+	padding-bottom: 20px;
+}
+
+#container {
+	height: 100%;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+#dialog {
+	margin: 10% 0;
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
+	text-align: left;
+	min-width: 400px;
+	max-width: 1000px;
+	background: #fff;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	border-radius: 3px;
+}
+
+#dialog .sst {
+	text-align: center;
+}
+
+.span24 {
+	width: 100%;
+	float: none;
+	padding: 0 20px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.large {
+	font-size: 16px;
+}
+
+#sign-in-form #login-input,
+#sign-in-form #password, 
+#recover-login, #openid-input, 
+.password-reset-form input.large {
+	padding: 13px 18px;
+	height: auto;
+	line-height: 15px;
+}
+
+#password-wrapper {
+	position: relative;
+}
+
+#dialog .actions, .section.buttons, .section.shipping-rate-buttons {
+	text-align: right;
+	border-top: 1px solid #ededed;
+	padding-top: 15px;
+	padding: 15px 20px;
+}
+
+.button{
+	font-weight:bold !important;
+	margin-bottom: 0px !important;
+}
+
+form {
+	margin-bottom: 0px !important;
+}
