@@ -3,5 +3,5 @@ An attempt to replicate shopify admin panel
 
 Demo : http://sarkutils.in/swpanel
 
-User : demo
+User : demo<br>
 Pass : password
